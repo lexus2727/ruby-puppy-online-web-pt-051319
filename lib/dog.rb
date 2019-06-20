@@ -7,8 +7,6 @@ class Dog
     @@all << self #new instances of new puppies pushed into array
   end
   
- 
-  
   def self.all
     @@all.each do |dog|
       puts dog.name
